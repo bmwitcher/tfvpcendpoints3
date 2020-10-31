@@ -68,7 +68,7 @@ resource "aws_security_group" "My_VPC_Security_Group_Public" {
   name        = "My VPC Security Group Public"
   description = "My VPC Security Group Public"
   ingress {
-    cidr_blocks = ["71.63.125.93/32"]
+    cidr_blocks = ["YOUR IP ADDRESS"]
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
